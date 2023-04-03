@@ -91,7 +91,7 @@ new Vue({
             else
             {
             this.quantity = this.quantity * this.counter;
-            this.end = 'zł';                                    //przeliczanie waluty na złotówki
+            this.end = 'zł';                                    //przeliczanie wybranej waluty na złotówki
             this.quantity = this.quantity.toFixed(2);
             this.finish = this.quantity;
             }
